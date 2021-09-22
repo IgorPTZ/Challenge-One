@@ -7,7 +7,7 @@ import java.util.List;
 public class QuestaoUm {
 	
 	/*
-	 Quest„o 1) Complete o cÛdigo Java abaixo:
+	 Quest√£o 1) Complete o c√≥digo Java abaixo:
 
 	public class Solution1 {
 	 public int solution(int[] A) {
@@ -15,15 +15,15 @@ public class QuestaoUm {
 	 }
 	}
 	
-	de forma que, ao receber um array A com N inteiros, o mÈtodo public int solution(int[] A) retorne
-	o menor n˙mero inteiro positivo (maior que 0) que n„o esteja presente em A. Por exemplo,
-	ï dado A = [1, 3, 6, 4, 1, 2], a funÁ„o deve retornar 5;
-	ï dado A = [1, 2, 3], a funÁ„o deve retornar 4;
-	ï dado A = [-1, -3], a funÁ„o deve retornar 1.
+	de forma que, ao receber um array A com N inteiros, o m√©todo public int solution(int[] A) retorne
+	o menor n√∫mero inteiro positivo (maior que 0) que n√£o esteja presente em A. Por exemplo,
+	‚Ä¢ dado A = [1, 3, 6, 4, 1, 2], a fun√ß√£o deve retornar 5;
+	‚Ä¢ dado A = [1, 2, 3], a fun√ß√£o deve retornar 4;
+	‚Ä¢ dado A = [-1, -3], a fun√ß√£o deve retornar 1.
 	
 	Escreva um algoritmo eficiente para o problema descrito acima respeitando as seguintes premissas:
-	ï N È um inteiro dentro do intervalo [1, 100.000];
-	ï cada elemento do array A È um inteiro dentro do intervalo [-1.000.000, 1.000.000].
+	‚Ä¢ N √© um inteiro dentro do intervalo [1, 100.000];
+	‚Ä¢ cada elemento do array A √© um inteiro dentro do intervalo [-1.000.000, 1.000.000].
 	  
 	 */
 	public static void main(String[] args) {
@@ -33,8 +33,6 @@ public class QuestaoUm {
 		//int [] A = new int[]{1, 2, 3};
 				
 		int [] A =  new int[]{1, 3, 6, 4, 1, 2};
-		
-	
 		
 		System.out.println("Valor: " + encontrarValorDesaparecido(A));
 	}
